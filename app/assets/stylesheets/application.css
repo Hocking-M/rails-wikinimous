@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+/* Path: app/assets/stylesheets/application.scss */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* Path: app/assets/stylesheets/bootstrap/_alerts.scss */
+
+
+.card-header {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  font-size: 1.72rem;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-footer {
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  padding: 1.5rem;
+}
