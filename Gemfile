@@ -69,3 +69,5 @@ group :test do
 end
 
 gem "faker", "~> 2.18"
+
+gem "simple_form"
